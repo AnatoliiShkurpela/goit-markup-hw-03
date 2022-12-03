@@ -87,6 +87,7 @@ body {
         text-transform: uppercase;
         color: var(--secondary-color-first);
         text-decoration: none;
+       
 }
 .logo-dark {
     font-family: 'Raleway', sans-serif;
@@ -100,6 +101,11 @@ body {
     color: var(--primary-text-color-theme-light);
     text-decoration: none;
 
+}
+
+.main-nav{
+    margin-left: 77px;
+    margin-right: auto;
 }
 
 .list {
@@ -206,6 +212,9 @@ font-family: 'Roboto',sans-serif;
         text-transform: capitalize;
         color: var(--primary-text-color-theme-light);
 }
+.index-header{
+    text-align: center;
+}
 
 .direction{
     display: flex;
@@ -244,7 +253,7 @@ font-family: 'Roboto',sans-serif;
 
 }
 
-.team-item{
+.teame-item{
     flex-basis: calc(100% / 4 - var(--card-set-gap));
     margin-left: var(--card-set-gap);
     background-color: #FFFFFF;
@@ -253,7 +262,6 @@ font-family: 'Roboto',sans-serif;
         font-weight: 700;
         font-size: 20px;
         line-height: 1.2;
-        text-align: center;
         letter-spacing: 0.02em;
         color: var(--primary-text-color-theme-light);
         margin: 0;
@@ -262,13 +270,12 @@ font-family: 'Roboto',sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        text-align: center;
         letter-spacing: 0.02em;
         color: var(--secondary-text-color-theme-light);
         margin: 0;
 }
 .team-fon {
-    background-color: var(--secondary-color-fourth);    
+    background-color: #FFFFFF;    
 }
 
 
@@ -281,12 +288,21 @@ font-family: 'Roboto',sans-serif;
         margin-left: calc(-1* var(--card-set-gap));
         margin-top: calc(-2 * var(--card-set-gap));
         gap: var(--card-set-gap);
+        text-decoration: none;
 }
 
 .flex-element{
     flex-basis: calc((100% - var(--card-set-gap))/3);
     margin-left: var(--card-set-gap);
     margin-top: 2 * var(--card-set-gap);
+    text-decoration: none;    
+    width: 360px;
+    height: 420px;
+       
+}
+
+.portfolio-link{
+    text-decoration: none;
 }
 
 .list-button{
@@ -295,6 +311,7 @@ font-family: 'Roboto',sans-serif;
         margin: 0;
         list-style: none;
         margin-left: calc(-1*var(--card-set-gap));
+        justify-content: center;
 
     }
     .portfolio-button{
@@ -307,11 +324,12 @@ font-family: 'Roboto',sans-serif;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.5;
-        text-align: center;
         letter-spacing: 0.04em;
         color: var(--secondary-color-first);
         background-color: var(--secondary-color-third);
         cursor: pointer;
+        border: 1px solid var(--secondary-color-third);
+        border-radius: 4px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -321,6 +339,7 @@ font-family: 'Roboto',sans-serif;
 /*main*/
 /*footer*/ 
 .footer-fon {
+    height: 310px;
     background-color: var(--primary-text-color-theme-light);
 }
 .logo {
@@ -328,8 +347,6 @@ font-family: 'Roboto',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--secondary-color-first);
@@ -345,7 +362,9 @@ font-family: 'Roboto',sans-serif;
         text-transform: uppercase;
         color: var(--secondary-color-fourth); 
 }
-.fotter-info {
+.footer-info {
+    width: 264px;
+    height: 62px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
