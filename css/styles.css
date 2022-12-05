@@ -233,14 +233,13 @@ font-family: 'Roboto',sans-serif;
     margin: 0;
     list-style: none;
     margin-left: calc(-1*var(--card-set-gap));
-    text-align: left;
+    
 
 }
 .direction-list{
     flex-basis: calc(100% / 4 - var(--card-set-gap) );
-    margin: 0;
     text-align: left;
-
+    margin-left: var(--card-set-gap);
 }
 
 
@@ -276,7 +275,7 @@ font-family: 'Roboto',sans-serif;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--primary-text-color-theme-light);
-        margin: 8px;
+        margin-bottom: 8px;
 }
 .secondary-info {
         font-weight: 400;
@@ -346,6 +345,12 @@ font-family: 'Roboto',sans-serif;
         border: 1px solid var(--secondary-color-third);
         border-radius: 4px;
 }
+.portfolio-card{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: #FFFFFF;
@@ -354,16 +359,12 @@ font-family: 'Roboto',sans-serif;
 /*main*/
 /*footer*/ 
 .footer-fon {
-    height: 310px;
     background-color: var(--primary-text-color-theme-light);
     padding-top: 100px;
     padding-bottom: 100px;
+}    
     
-}
-.footter-retreat{
-    width: 264px;
-    height: 62px;
-}
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -384,6 +385,7 @@ font-family: 'Roboto',sans-serif;
         color: var(--secondary-color-fourth); 
 }
 .footer-info {
+    width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
