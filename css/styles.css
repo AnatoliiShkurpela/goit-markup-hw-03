@@ -232,6 +232,7 @@ font-family: 'Roboto',sans-serif;
 }
 .index-header{
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .direction{
@@ -302,7 +303,7 @@ font-family: 'Roboto',sans-serif;
         margin: 0;
 }
 .team-fon {
-    background-color: #FFFFFF;
+    background-color:var(--secondary-color-fourth);
     padding-bottom: 120px;    
 }
 
@@ -334,6 +335,10 @@ font-family: 'Roboto',sans-serif;
     text-decoration: none;
 }
 
+.portfolio-button-list{
+        margin-left: var(--card-set-gap);
+}
+
 .list-button{
         display: flex;
         padding: 0;
@@ -349,7 +354,7 @@ font-family: 'Roboto',sans-serif;
         padding-right: 24px;
         padding-bottom: 12px;
         padding-left: 24px;
-        margin-left: var(--card-set-gap);
+       
     
 }
 
@@ -368,9 +373,8 @@ font-family: 'Roboto',sans-serif;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
-    border-left:0px ;
-    border-right: 1px;
-    border-bottom: 6px;
+    padding-right: 16px;
+    border: 0.5px solid #F4F4FD;
 }
 
 .portfolio-button:hover,
